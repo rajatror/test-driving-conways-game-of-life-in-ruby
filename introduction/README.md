@@ -80,14 +80,14 @@ This technique of writing tests for use cases helps keep code simple by:
 
 Pure outside-in development can have some disadvantages:
 
-* It can be hard to find what causes a failing use case, since there aren't as
-  many checks written for the internal components.
+* It can be hard to find what code causes a failing use case, since there aren't
+  as many checks written for the internal components.
 * Checks which interact directly with the user interface and/or outside services
   such as databases and remote APIs get slow quickly.
 * If the developer does not spend time extracting sub-components they may wind
   up with a "big ball of mud" software design.
 
-To mitigate these concerns it's useful to write an outside-in use case, extract
+To mitigate these concerns it's helpful to write an outside-in use case, extract
 a sub-component, test drive the behavior of the sub-component, then write the
 next outside-in use case. This provides your code with both user-facing use
 cases to demonstrate your code does what it's supposed to **and** low-level unit
