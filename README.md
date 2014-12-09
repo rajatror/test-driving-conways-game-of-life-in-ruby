@@ -1,7 +1,7 @@
 # Test Driving Conways Game of Life in Ruby
 
 This repository holds assets used to build the book. The source code for the
-implementation is located elsewhere.
+implementation is located in the [Test Driving Conways Game of life in Ruby - Code repository](https://github.com/zspencer/test-driving-conways-game-of-life-in-ruby-code).
 
 If you have feedback, noticed some poor grammar, have a question, or found a bug
 please create an
@@ -30,5 +30,4 @@ versions may include JavaScript, Java, C# or Clojure.
 
 ## Version
 
-This book is currently very much in alpha. I expect to reach an initial 1.0
-release within a few months.
+This book is currently very much in alpha. I expect to reach an initial 1.0 release within a few months.
